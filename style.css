@@ -225,3 +225,9 @@ li.li_products:hover > a { /*фон для активного пункту menu*
 .breadcrumbs_li:last-child::after {
     content: "";
 }
+.title_products {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
