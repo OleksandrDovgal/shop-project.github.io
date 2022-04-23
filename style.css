@@ -20,7 +20,9 @@ body {
     margin-left: -15px;
     margin-right: -15px;
 }
-.row::after,.menu::after {
+.row::after,
+.menu::after,
+.breadcrumbs::after {
     content: "";
     display: block;
     clear: both;
@@ -186,4 +188,40 @@ li.li_products:hover > a { /*фон для активного пункту menu*
     background-image: url("images/arrow_down_white_icon20x20.png");
     background-repeat: no-repeat;
     background-position: 115px 16px;
+}
+
+
+
+.filter {
+    width: 270px;
+    height: 845px;
+    border: 1px solid #fff;
+}
+
+.breadcrumbs {
+    padding: 25px 0;
+}
+.breadcrumbs_li {
+    float: left;
+}
+.breadcrumbs_li > a {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.breadcrumbs_current {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+.breadcrumbs_li::after {
+    content: ">";
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+.breadcrumbs_li:last-child::after {
+    content: "";
 }
