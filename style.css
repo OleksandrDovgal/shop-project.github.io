@@ -213,6 +213,7 @@ li.li_products:hover > a { /*фон для активного пункту menu*
 .breadcrumbs_current {
     font-size: 14px;
     font-weight: 300;
+    text-decoration: underline;
     color: rgba(255, 255, 255, 0.5);
 }
 .breadcrumbs_li::after {
@@ -225,11 +226,12 @@ li.li_products:hover > a { /*фон для активного пункту menu*
 .breadcrumbs_li:last-child::after {
     content: "";
 }
+
 .products_title {
     color: white;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .product_item {
