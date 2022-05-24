@@ -38,6 +38,9 @@ body {
 .col-md-4 {
     width: 33.3333%;
 }
+.margin-bottom {
+    margin-bottom: 30px;
+}
 .col-md-6 {
     width: 50%;
 }
@@ -151,6 +154,7 @@ body {
     width: 286px;
     position: absolute;
     left: -1px;
+    z-index: 5;
 }
 /* .submenu > li > a{
     border-left: none;
@@ -288,6 +292,7 @@ li.li_products:hover > a { /*фон для активного пункту menu*
 
 .product_body {
     padding: 15px;
+    background-color: rgba(44, 113, 184, 0.75);
 }
 .font_styles {
     font-size: 21px;
